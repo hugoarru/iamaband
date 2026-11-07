@@ -512,3 +512,20 @@ footer a { color: var(--muted); }
   .steps li { padding: 22px; }
   .summary, .contact { padding: 20px; }
 }
+
+/* Language switch */
+
+.bar nav { align-items: center; }
+.bar nav a.lang {
+  padding: 1px 9px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  opacity: 1;
+}
+.bar nav a.lang:hover {
+  background: var(--white);
+  color: var(--ground);
+  text-decoration: none;
+}
